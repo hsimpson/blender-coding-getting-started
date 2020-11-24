@@ -1,6 +1,9 @@
-# hello world test script to check if VSCode Python extension is working
+"""
+hello world test script to check if VSCode Python extension is working
+"""
+
 import sys
 
-msg = "Hello World!\n"
-print(msg)
+MSG = "Hello World!\n"
+print(MSG)
 print("Python version: " + sys.version)
