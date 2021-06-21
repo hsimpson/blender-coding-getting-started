@@ -1,12 +1,12 @@
 # Blender python coding with VSCode: getting started
 
-Tested with Blender 2.90.1 on Windows 10-64bit but should work also with older/newer versions of Blender and other OS like Linux or macOS
+Tested with Blender 2.93.0 on Windows 10-64bit but should work also with older/newer versions of Blender and other OS like Linux or macOS
 
 Steps:
 
-1. Install [Blender 2.90.1](https://www.blender.org/)
+1. Install [Blender 2.93.0](https://www.blender.org/)
 2. Install [VSCode](https://code.visualstudio.com/)
-3. Install [Python](https://www.python.org/) (same version which is used within Blender: 2.90.1 uses Python 3.7.7)
+3. Install [Python](https://www.python.org/) (same version which is used within Blender: 2.93.0 uses Python 3.9.2)
     * to check which version of Python use used within Blender: just open Blender and switch to the "scripting" view and read the Python version:
     ![Blender Python Version](./src/images/blender_python_version.png)
 4. Install and setup [VSCode Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
@@ -30,7 +30,7 @@ Steps:
     ```shell
     Hello World!
 
-    Python version: 3.7.7 (tags/v3.7.7:d7c567b08f, Mar 10 2020, 10:41:24) [MSC v.1900 64 bit (AMD64)]
+    Python version: 3.9.2 (tags/v3.9.2:1a79785, Feb 19 2021, 13:44:55) [MSC v.1928 64 bit (AMD64)]
     ```
 
 7. Install and setup Autocomplete modules for Blender python API
@@ -39,14 +39,14 @@ Steps:
 
     ```JSON
     "python.autoComplete.extraPaths": [
-    "<PATH_TO_BLENDER_AUTOCOMPLETE>/blender_autocomplete/2.90"
+    "<PATH_TO_BLENDER_AUTOCOMPLETE>/blender_autocomplete/2.92"
     ],
     "python.analysis.extraPaths": [
-        "<PATH_TO_BLENDER_AUTOCOMPLETE>/blender_autocomplete/2.90"
+        "<PATH_TO_BLENDER_AUTOCOMPLETE>/blender_autocomplete/2.92"
     ],
     "python.linting.pylintArgs": [
         "--init-hook",
-        "import sys; sys.path.append('<PATH_TO_BLENDER_AUTOCOMPLETE>,/blender_autocomplete/2.90')"
+        "import sys; sys.path.append('<PATH_TO_BLENDER_AUTOCOMPLETE>,/blender_autocomplete/2.92')"
     ],
     ```
 
