@@ -25,7 +25,7 @@ Tested with Blender 2.93.1 on Windows 10-64bit but should work also with older/n
 
 1. Configure in your User Settings:
 
-```JSON
+```json
 "python.languageServer": "Pylance"
 ```
 
@@ -46,7 +46,7 @@ Python version: 3.9.2 (tags/v3.9.2:1a79785, Feb 19 2021, 13:44:55) [MSC v.1928 6
 1. Download or clone <https://github.com/Korchy/blender_autocomplete>
 2. Add to User Settings:
 
-```JSON
+```json
 "python.autoComplete.extraPaths": [
 "<PATH_TO_BLENDER_AUTOCOMPLETE>/blender_autocomplete/2.93"
 ],
